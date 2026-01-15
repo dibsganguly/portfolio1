@@ -1,0 +1,85 @@
+/* Color variables */
+:root {
+  --primary: #1e3a8a;   /* deep blue */
+  --accent: #0d9488;    /* teal */
+  --text: #1f2933;
+  --muted: #6b7280;
+  --border: #e5e7eb;
+  --bg: #ffffff;
+}
+
+/* Base */
+body {
+  font-family: "Segoe UI", Tahoma, Arial, sans-serif;
+  max-width: 900px;
+  margin: auto;
+  padding: 48px 24px;
+  background: var(--bg);
+  color: var(--text);
+  line-height: 1.7;
+}
+
+/* Header */
+header {
+  margin-bottom: 52px;
+}
+
+header h1 {
+  font-size: 2.3rem;
+  margin-bottom: 6px;
+  color: var(--primary);
+}
+
+header p {
+  margin: 4px 0;
+  font-size: 0.95rem;
+  color: var(--muted);
+}
+
+/* Section titles */
+h2 {
+  margin-top: 52px;
+  margin-bottom: 14px;
+  font-size: 1.35rem;
+  color: var(--primary);
+  border-bottom: 2px solid var(--accent);
+  padding-bottom: 6px;
+}
+
+/* Text */
+p {
+  margin: 10px 0;
+}
+
+strong {
+  color: var(--primary);
+}
+
+/* Lists */
+ul {
+  margin: 8px 0 18px 20px;
+}
+
+li {
+  margin-bottom: 6px;
+}
+
+/* Links */
+a {
+  color: var(--accent);
+  text-decoration: none;
+  font-weight: 500;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* Footer */
+footer {
+  margin-top: 64px;
+  padding-top: 18px;
+  border-top: 1px solid var(--border);
+  font-size: 0.9rem;
+  color: var(--muted);
+}
